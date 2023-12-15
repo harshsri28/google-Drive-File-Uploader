@@ -61,12 +61,6 @@ uploadFile(fileObject)
 
 By default, only read permissions are granted to anyone. You can configure permissions in `setViewOnlyPermission` function in `uploadFile.js`.
 
-## Configurations
-
-- `KEY_FILE_PATH`: Path to your `credentials.json` file.
-- `SCOPES`: Google Drive API scopes.
-- `GOOGLE_DRIVE_FOLDER_ID`: ID of the Google Drive folder.
-
 ## Security
 
 This application ensures that only read permissions are granted to anyone. You can modify the permission settings in the `setViewOnlyPermission` function.
