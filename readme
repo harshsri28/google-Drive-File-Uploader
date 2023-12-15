@@ -1,6 +1,3 @@
-
----
-
 # Google Drive File Uploader
 
 ## Overview
@@ -73,9 +70,3 @@ By default, only read permissions are granted to anyone. You can configure permi
 ## Security
 
 This application ensures that only read permissions are granted to anyone. You can modify the permission settings in the `setViewOnlyPermission` function.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
