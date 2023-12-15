@@ -39,7 +39,7 @@ Before using this application, make sure you have the following:
 
 To upload a file, use the following code:
 
-```javascript
+```
 const { uploadFile } = require('./path/to/your/uploadFile');
 
 const fileObject = {
