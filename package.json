@@ -1,0 +1,15 @@
+{
+  "name": "googlefileuploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "googleFileUploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^129.0.0"
+  }
+}
