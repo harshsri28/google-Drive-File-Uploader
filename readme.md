@@ -1,6 +1,3 @@
-
----
-
 # Google Drive File Uploader
 
 ## Overview
@@ -43,12 +40,12 @@ Before using this application, make sure you have the following:
 To upload a file, use the following code:
 
 ```javascript
-const { uploadFile } = require('./path/to/your/uploadFile');
+const { uploadFile } = require("./path/to/your/uploadFile");
 
 const fileObject = {
-  buffer: 'file-buffer', // The file content as a buffer
-  originalname: 'file.txt', // The original name of the file
-  mimetype: 'text/plain', // The MIME type of the file
+  buffer: "file-buffer", // The file content as a buffer
+  originalname: "file.txt", // The original name of the file
+  mimetype: "text/plain", // The MIME type of the file
 };
 
 uploadFile(fileObject)
@@ -56,7 +53,7 @@ uploadFile(fileObject)
     console.log(`File uploaded successfully. WebViewLink: ${webViewLink}`);
   })
   .catch((error) => {
-    console.error('Error uploading file:', error.message);
+    console.error("Error uploading file:", error.message);
   });
 ```
 
